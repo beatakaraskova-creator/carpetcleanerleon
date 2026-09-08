@@ -1853,7 +1853,7 @@ body.page .nav {
     position: absolute;
     left: 1.05rem;
     top: 100%;
-    margin-top: 6.75rem;
+    margin-top: 4.1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -1892,7 +1892,7 @@ body.page .nav {
 
 @media (max-width: 430px) {
   .hero { --leon-h: 58%; }
-  .hero-stats { margin-top: 7.5rem; }
+  .hero-stats { margin-top: 4.85rem; }
   .about-photo,
   .about-photo img {
     max-height: min(30vh, 14.5rem);
@@ -1902,7 +1902,7 @@ body.page .nav {
 }
 
 @media (max-width: 380px) {
-  .hero-stats { margin-top: 8.25rem; }
+  .hero-stats { margin-top: 5.5rem; }
 }
 
 @media (pointer: coarse) {
