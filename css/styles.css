@@ -1829,40 +1829,38 @@ body.page .nav {
   .hero { --leon-h: 58%; }
   .hero-copy {
     justify-content: flex-start;
-    padding: 1.35rem 1.15rem 0.35rem;
+    padding: 2.4rem 1.15rem 0.6rem;
     overflow: visible;
   }
-  .hero-kicker { margin-bottom: 0.55rem; }
+  .hero-kicker { margin-bottom: 0.9rem; }
   .hero-title {
     font-size: clamp(1.75rem, 7vw, 2.2rem);
-    margin-bottom: 1.15rem;
+    margin-bottom: 2.6rem;
     line-height: 1.12;
   }
   .hero-lead {
     display: block;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    margin-bottom: 0.7rem;
+    font-size: 0.98rem;
+    line-height: 1.75;
+    margin-bottom: 2rem;
   }
   .hero-actions {
     position: relative;
     z-index: 1;
-    margin-top: auto;
-    margin-bottom: 0.2rem;
-    flex-shrink: 0;
+    margin-bottom: 0.25rem;
   }
   .hero-stats {
     position: absolute;
     left: 1.05rem;
     top: 100%;
-    margin-top: 1.15rem;
+    margin-top: 6.75rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    gap: 0.9rem;
+    gap: 1rem;
     width: max-content;
-    max-width: 42%;
+    max-width: 40%;
     border-top: none;
     padding-top: 0;
     z-index: 4;
@@ -1894,27 +1892,7 @@ body.page .nav {
 
 @media (max-width: 430px) {
   .hero { --leon-h: 58%; }
-  .hero-copy { padding: 1.05rem 0.95rem 0.25rem; }
-  .hero-kicker { margin-bottom: 0.45rem; }
-  .hero-title {
-    font-size: clamp(1.55rem, 7.4vw, 1.95rem);
-    margin-bottom: 0.85rem;
-  }
-  .hero-lead {
-    font-size: 0.88rem;
-    line-height: 1.5;
-    margin-bottom: 0.5rem;
-  }
-  .hero-stats {
-    left: 0.9rem;
-    margin-top: 1.45rem;
-    gap: 0.75rem;
-  }
-  .hero-stats strong { font-size: 1.22rem; }
-  .hero-stats span {
-    font-size: 0.58rem;
-    max-width: 6.2rem;
-  }
+  .hero-stats { margin-top: 7.5rem; }
   .about-photo,
   .about-photo img {
     max-height: min(30vh, 14.5rem);
@@ -1924,20 +1902,7 @@ body.page .nav {
 }
 
 @media (max-width: 380px) {
-  .hero-copy { padding: 0.9rem 0.9rem 0.2rem; }
-  .hero-title {
-    font-size: clamp(1.45rem, 8vw, 1.8rem);
-    margin-bottom: 0.7rem;
-  }
-  .hero-lead {
-    font-size: 0.84rem;
-    line-height: 1.45;
-    margin-bottom: 0.4rem;
-  }
-  .hero-stats {
-    margin-top: 1.7rem;
-    gap: 0.65rem;
-  }
+  .hero-stats { margin-top: 8.25rem; }
 }
 
 @media (pointer: coarse) {
